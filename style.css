@@ -4,15 +4,28 @@
   padding: 0;
 }
 
-.main-div {
+body {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 1px solid red;
+  height: 575px;
+  width: 575px;
 }
 
-.main-div div {
-  min-width: 400px;
-  height: 400px;
+.grid div {
   border: 1px solid black;
-  gap: 20px;
 }
+
+/* .grid div:hover {
+  background-color: blue;
+} */
+
+/* .cell {
+} */
