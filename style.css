@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main-div div {
+  min-width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  gap: 20px;
+}
