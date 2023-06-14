@@ -6,26 +6,15 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .grid {
-  margin-top: 50px;
+  margin: 50px;
   display: grid;
-  grid-template-columns: repeat(16, 2fr);
-  grid-template-rows: repeat(16, 2fr);
-  border: 1px solid red;
+  box-shadow: 10px 10px gray;
+  border: 1px solid black;
   height: 575px;
   width: 575px;
 }
-
-.grid div {
-  border: 1px solid black;
-}
-
-/* .grid div:hover {
-  background-color: blue;
-} */
-
-/* .cell {
-} */
